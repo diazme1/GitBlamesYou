@@ -1,0 +1,208 @@
+📊Resumen de líneas por autor - 🌿Rama: dev
+
+📊 Total global por autor:
+Carolina Ciampini: 621 líneas
+Abril Orlando: 512 líneas
+Maria Emilia Diaz: 480 líneas
+Nehuen Gallitelli: 411 líneas
+lucrecolon: 386 líneas
+Emilia Diaz: 70 líneas
+franco: 52 líneas
+
+📁 Líneas por archivo y autor:
+
+📝 Espiritu.java
+   Nehuen Gallitelli: 40 líneas
+   Maria Emilia Diaz: 35 líneas
+   franco: 15 líneas
+   Abril Orlando: 7 líneas
+   lucrecolon: 5 líneas
+   Emilia Diaz: 5 líneas
+   Carolina Ciampini: 2 líneas
+
+📝 Medium.java
+   Maria Emilia Diaz: 22 líneas
+   franco: 18 líneas
+   Abril Orlando: 18 líneas
+   Nehuen Gallitelli: 10 líneas
+   lucrecolon: 8 líneas
+   Carolina Ciampini: 7 líneas
+
+📝 Ubicacion.java
+   Carolina Ciampini: 28 líneas
+
+📝 Direccion.java
+   lucrecolon: 5 líneas
+   Maria Emilia Diaz: 1 líneas
+
+📝 TipoEspiritu.java
+   Nehuen Gallitelli: 5 líneas
+   Maria Emilia Diaz: 1 líneas
+
+📝 EspirituNoDisponibleException.java
+   lucrecolon: 13 líneas
+
+📝 ExorcistaSinAngelesException.java
+   Maria Emilia Diaz: 15 líneas
+
+📝 ManaInvalidoException.java
+   Maria Emilia Diaz: 19 líneas
+
+📝 ManaMaxInvalidoException.java
+   Maria Emilia Diaz: 19 líneas
+
+📝 MediumSinDemoniosException.java
+   Maria Emilia Diaz: 12 líneas
+   Emilia Diaz: 1 líneas
+
+📝 NivelDeConexionInvalidoException.java
+   Nehuen Gallitelli: 17 líneas
+
+📝 NoHayManaSuficienteException.java
+   Carolina Ciampini: 14 líneas
+
+📝 NombreDeUbicacionDuplicadoException.java
+   Carolina Ciampini: 15 líneas
+
+📝 ObjetoInexistente.java
+   Carolina Ciampini: 13 líneas
+
+📝 PaginaMenorACeroException.java
+   lucrecolon: 15 líneas
+
+📝 UbicacionDiferenteException.java
+   lucrecolon: 19 líneas
+
+📝 UbicacionInexistenteException.java
+   Nehuen Gallitelli: 9 líneas
+
+📝 UbicacionNulaException.java
+   Nehuen Gallitelli: 10 líneas
+
+📝 RandomCustomDefault.java
+   Maria Emilia Diaz: 10 líneas
+
+📝 RandomCustomTest.java
+   Maria Emilia Diaz: 8 líneas
+
+📝 RandomStrategy.java
+   Maria Emilia Diaz: 5 líneas
+
+📝 RandomizerCustom.java
+   Maria Emilia Diaz: 26 líneas
+
+📝 EspirituDAO.java
+   franco: 8 líneas
+   Maria Emilia Diaz: 7 líneas
+   lucrecolon: 5 líneas
+   Nehuen Gallitelli: 5 líneas
+
+📝 MediumDAO.java
+   Abril Orlando: 18 líneas
+   Maria Emilia Diaz: 6 líneas
+   Carolina Ciampini: 1 líneas
+
+📝 UbicacionDAO.java
+   Carolina Ciampini: 18 líneas
+   Maria Emilia Diaz: 2 líneas
+
+📝 HibernateDAO.java
+   Abril Orlando: 30 líneas
+   Maria Emilia Diaz: 4 líneas
+   Carolina Ciampini: 3 líneas
+
+📝 HibernateEspirituDAO.java
+   lucrecolon: 42 líneas
+   Maria Emilia Diaz: 24 líneas
+   Nehuen Gallitelli: 17 líneas
+   Abril Orlando: 4 líneas
+
+📝 HibernateMediumDAO.java
+   Abril Orlando: 34 líneas
+   Maria Emilia Diaz: 19 líneas
+   Emilia Diaz: 13 líneas
+   Carolina Ciampini: 4 líneas
+
+📝 HibernateUbicacionDAO.java
+   Carolina Ciampini: 57 líneas
+   Abril Orlando: 5 líneas
+
+📝 EspirituService.java
+   franco: 11 líneas
+   Maria Emilia Diaz: 6 líneas
+   Nehuen Gallitelli: 4 líneas
+   lucrecolon: 2 líneas
+
+📝 MediumService.java
+   Abril Orlando: 21 líneas
+   Maria Emilia Diaz: 3 líneas
+   Carolina Ciampini: 2 líneas
+
+📝 UbicacionService.java
+   Carolina Ciampini: 19 líneas
+
+📝 EspirituServiceImpl.java
+   lucrecolon: 59 líneas
+   Nehuen Gallitelli: 34 líneas
+   Maria Emilia Diaz: 23 líneas
+   Carolina Ciampini: 1 líneas
+
+📝 EspiritusPaginados.java
+   lucrecolon: 6 líneas
+
+📝 MediumServiceImpl.java
+   Abril Orlando: 77 líneas
+   Maria Emilia Diaz: 28 líneas
+   Carolina Ciampini: 23 líneas
+   Nehuen Gallitelli: 7 líneas
+
+📝 UbicacionServiceImpl.java
+   Carolina Ciampini: 68 líneas
+   Nehuen Gallitelli: 3 líneas
+   Maria Emilia Diaz: 3 líneas
+
+📝 HibernateSessionFactoryProvider.java
+   Abril Orlando: 75 líneas
+
+📝 HibernateTransactionRunner.java
+   Abril Orlando: 37 líneas
+
+📝 EspirituTest.java
+   Nehuen Gallitelli: 104 líneas
+   Abril Orlando: 10 líneas
+   Maria Emilia Diaz: 10 líneas
+   Carolina Ciampini: 1 líneas
+
+📝 MediumModeloTest.java
+   Abril Orlando: 61 líneas
+   Maria Emilia Diaz: 37 líneas
+   Emilia Diaz: 30 líneas
+   Nehuen Gallitelli: 8 líneas
+   lucrecolon: 8 líneas
+   Carolina Ciampini: 6 líneas
+
+📝 UbicacionTest.java
+   Carolina Ciampini: 32 líneas
+   Abril Orlando: 1 líneas
+
+📝 EspirituServiceImplTest.java
+   lucrecolon: 192 líneas
+   Nehuen Gallitelli: 125 líneas
+   Maria Emilia Diaz: 16 líneas
+   Carolina Ciampini: 13 líneas
+   Abril Orlando: 2 líneas
+
+📝 MediumServiceImplTest.java
+   Maria Emilia Diaz: 116 líneas
+   Abril Orlando: 108 líneas
+   Carolina Ciampini: 67 líneas
+   Emilia Diaz: 21 líneas
+   Nehuen Gallitelli: 12 líneas
+   lucrecolon: 1 líneas
+
+📝 UbicacionServiceImplTest.java
+   Carolina Ciampini: 227 líneas
+   lucrecolon: 6 líneas
+   Abril Orlando: 4 líneas
+   Maria Emilia Diaz: 3 líneas
+   Nehuen Gallitelli: 1 líneas
