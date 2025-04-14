@@ -7,17 +7,23 @@ from gitblamesyou.salidaTXT import salida_txt
 from gitblamesyou.salidaPDF import salida_pdf
 
 def main():
-    repo_path = os.getcwd()
-    EXTENSIONES_VALIDAS = ['.java']
-
-    # Nos movemos al directorio del repo
-    #os.chdir(repo_path)
     parser = argparse.ArgumentParser(description="Argumentos blaming")
     parser.add_argument('--branch', '-b', help='Rama a analizar', required=True)
+    parser.add_argument('--extensions', '-e',required=True, help='Extensiones de archivos a evaluar', nargs='+', type=str)
     parser.add_argument('--outputTXT', '-oT', help='Nombre del archivo txt de salida')
     parser.add_argument('--outputPDF', '-oP', help='Nombre del archivo pdf de salida')
 
     args = parser.parse_args()
+
+    repo_path = os.getcwd()
+    EXTENSIONES_VALIDAS = list(args.extensions)#['.java']
+
+    print("📁 Evaluando archivos:\n")
+    for ext in EXTENSIONES_VALIDAS:
+        print(f"{ext}\n")
+
+    # Nos movemos al directorio del repo
+    #os.chdir(repo_path)
 
     current_branch = subprocess.check_output(
         ['git', 'rev-parse', '--abbrev-ref', 'HEAD']
