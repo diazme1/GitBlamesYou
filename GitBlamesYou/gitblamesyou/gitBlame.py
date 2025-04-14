@@ -18,7 +18,7 @@ def main():
     repo_path = os.getcwd()
     EXTENSIONES_VALIDAS = list(args.extensions)#['.java']
 
-    print("📁 Evaluando archivos:\n")
+    print("📁 Evaluando archivos:")
     for ext in EXTENSIONES_VALIDAS:
         print(f"{ext}\n")
 
