@@ -8,7 +8,7 @@ Analiza las firmas registradas en cada línea de código usando el comando `blam
 ---
 ## 🔄 Funcionamiento
 
-**GitBlamesYou** ejecutará el comando `git blame`, y extraerá el autor de cada línea, en cada archivo presente, contabilizando dichos datos.
+**GitBlamesYou** ejecutará el comando `git blame`, y extraerá el autor de cada línea, en cada archivo presente, contabilizando dichos datos. Es decir, a diferencia de la contabilización de líneas realizada por **GitHub Insights**, no es un cálculo de líneas acumuladas agregadas en cada commit realizado. En su lugar, se calcularán el total de líneas actuales al momento de la ejecución del comando `blaming`.
 
 ---
 
