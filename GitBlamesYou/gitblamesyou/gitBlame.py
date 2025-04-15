@@ -87,7 +87,7 @@ def main():
 
     salida.append("📁 Líneas por archivo y autor:\n")
     for archivo, autores in sorted(lineas_por_archivo.items()):
-        archivo_name = archivo.split("/")[-1]
+        archivo_name = f'{archivo.split("/")[-2]}/{(archivo.split("/")[-1])}'
         salida.append(f"📝 {archivo_name}")
         for autor, count in sorted(autores.items(), key=lambda x: -x[1]):
             salida.append(f"   {autor}: {count} líneas")
